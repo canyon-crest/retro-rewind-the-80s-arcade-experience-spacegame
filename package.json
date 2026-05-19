@@ -8,6 +8,7 @@
 		"q5play": "^4.1.2"
 	},
 	"scripts": {
+		"start": "node server.js",
 		"v": "npm version patch --force",
 		"V": "npm version minor --force",
 		"dist": "rsync -av --exclude='.git' . ~/dev/ext/q5play-vscode/q5play-template",
